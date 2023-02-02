@@ -1,0 +1,31 @@
+{  
+  "name": "salesforce2mysql",
+  "version": "1.0.0",
+  "description": "Nope app for migrating data from salesforce to mysql",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronthomaswebster/salesforce2mysql.git"
+  },
+  "keywords": [
+    "salesforce",
+    "mysql"
+  ],
+  "author": "Aaron Webster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronthomaswebster/salesforce2mysql/issues"
+  },
+  "homepage": "https://github.com/aaronthomaswebster/salesforce2mysql#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "jsforce": "^1.11.0",
+    "mysql2": "^3.0.1",
+    "path": "^0.12.7",
+    "uuid": "^9.0.0"
+  }
+}
